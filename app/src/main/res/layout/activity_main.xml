@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/tvTitle">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            style="@style/etStyle"
+            android:id="@+id/km"
+            android:hint="в км">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/km"
+            android:layout_weight="4">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            style="@style/etStyle"
+            android:id="@+id/m"
+            android:hint="в м">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/m"
+            android:layout_weight="4">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            style="@style/etStyle"
+            android:id="@+id/dm"
+            android:hint="в дм">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dm"
+            android:layout_weight="4">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            style="@style/etStyle"
+            android:id="@+id/sm"
+            android:hint="в см">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sm"
+            android:layout_weight="4">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            style="@style/etStyle"
+            android:id="@+id/mm"
+            android:hint="в мм">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mm"
+            android:layout_weight="4">
+        </TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/inspect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inspect"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/gray"
+        android:textColor="@color/black">
+    </Button>
+
+    <TextView
+        android:id="@+id/rezult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ImageView>
+
+</LinearLayout>
